@@ -41,4 +41,4 @@ $string['collaborate'] = 'Collaborate';
 $string['title'] = 'Title';
 $string['submission'] = 'Submission';
 $string['page'] = 'page';
-
+$string['about']='About';

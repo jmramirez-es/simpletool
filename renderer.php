@@ -33,6 +33,9 @@ class tool_simpletool_renderer extends plugin_renderer_base {
 
     public function display_table($records) {
 
+        //llamada al js para crear una ventana modal.
+        $this->page->requires->js_call_amd('tool_simpletool/amd_modal', 'init');    
+
         $data = new stdClass();
 
         // Table headers.
@@ -89,4 +92,6 @@ class tool_simpletool_renderer extends plugin_renderer_base {
         echo $this->output->footer();
 
     }
+
+    
 }
